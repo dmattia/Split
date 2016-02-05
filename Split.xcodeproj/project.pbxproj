@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		F11486901C63F69100E8A980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F114868F1C63F69100E8A980 /* AppDelegate.swift */; };
-		F11486921C63F69100E8A980 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11486911C63F69100E8A980 /* ViewController.swift */; };
 		F11486951C63F69100E8A980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11486931C63F69100E8A980 /* Main.storyboard */; };
 		F11486971C63F69100E8A980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11486961C63F69100E8A980 /* Assets.xcassets */; };
 		F114869A1C63F69100E8A980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11486981C63F69100E8A980 /* LaunchScreen.storyboard */; };
 		F11486A51C63F69100E8A980 /* SplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11486A41C63F69100E8A980 /* SplitTests.swift */; };
 		F11486B01C63F69100E8A980 /* SplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11486AF1C63F69100E8A980 /* SplitUITests.swift */; };
+		F11486C01C64044300E8A980 /* restaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11486BF1C64044300E8A980 /* restaurantCell.swift */; };
+		F11486C21C64061400E8A980 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11486C11C64061400E8A980 /* GroupViewController.swift */; };
+		F11486C41C64094700E8A980 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11486C31C64094700E8A980 /* RestaurantViewController.swift */; };
+		F11486C61C640DF700E8A980 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11486C51C640DF700E8A980 /* GroupCell.swift */; };
+		F11486C81C640EF000E8A980 /* JoinGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11486C71C640EF000E8A980 /* JoinGroupViewController.swift */; };
+		F11486CA1C64119700E8A980 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11486C91C64119700E8A980 /* menuViewController.swift */; };
+		F11486CC1C64122C00E8A980 /* menuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11486CB1C64122C00E8A980 /* menuCell.swift */; };
+		F1731B631C644863005C2C01 /* OrderCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1731B621C644863005C2C01 /* OrderCompleteViewController.swift */; };
+		F1731B651C64488E005C2C01 /* OrderCompleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1731B641C64488E005C2C01 /* OrderCompleteCell.swift */; };
+		F1731B671C645293005C2C01 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1731B661C645293005C2C01 /* Checkbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		F114868C1C63F69100E8A980 /* Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Split.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F114868F1C63F69100E8A980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F11486911C63F69100E8A980 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F11486941C63F69100E8A980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F11486961C63F69100E8A980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F11486991C63F69100E8A980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		F11486AB1C63F69100E8A980 /* SplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11486AF1C63F69100E8A980 /* SplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitUITests.swift; sourceTree = "<group>"; };
 		F11486B11C63F69100E8A980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11486BF1C64044300E8A980 /* restaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restaurantCell.swift; sourceTree = "<group>"; };
+		F11486C11C64061400E8A980 /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		F11486C31C64094700E8A980 /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		F11486C51C640DF700E8A980 /* GroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		F11486C71C640EF000E8A980 /* JoinGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinGroupViewController.swift; sourceTree = "<group>"; };
+		F11486C91C64119700E8A980 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		F11486CB1C64122C00E8A980 /* menuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuCell.swift; sourceTree = "<group>"; };
+		F1731B621C644863005C2C01 /* OrderCompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCompleteViewController.swift; sourceTree = "<group>"; };
+		F1731B641C64488E005C2C01 /* OrderCompleteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCompleteCell.swift; sourceTree = "<group>"; };
+		F1731B661C645293005C2C01 /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +116,17 @@
 			isa = PBXGroup;
 			children = (
 				F114868F1C63F69100E8A980 /* AppDelegate.swift */,
-				F11486911C63F69100E8A980 /* ViewController.swift */,
 				F11486931C63F69100E8A980 /* Main.storyboard */,
+				F1731B661C645293005C2C01 /* Checkbox.swift */,
+				F1731B621C644863005C2C01 /* OrderCompleteViewController.swift */,
+				F1731B641C64488E005C2C01 /* OrderCompleteCell.swift */,
+				F11486CB1C64122C00E8A980 /* menuCell.swift */,
+				F11486C91C64119700E8A980 /* menuViewController.swift */,
+				F11486C71C640EF000E8A980 /* JoinGroupViewController.swift */,
+				F11486C51C640DF700E8A980 /* GroupCell.swift */,
+				F11486BF1C64044300E8A980 /* restaurantCell.swift */,
+				F11486C31C64094700E8A980 /* RestaurantViewController.swift */,
+				F11486C11C64061400E8A980 /* GroupViewController.swift */,
 				F11486961C63F69100E8A980 /* Assets.xcassets */,
 				F11486981C63F69100E8A980 /* LaunchScreen.storyboard */,
 				F114869B1C63F69100E8A980 /* Info.plist */,
@@ -256,7 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F11486921C63F69100E8A980 /* ViewController.swift in Sources */,
+				F11486C61C640DF700E8A980 /* GroupCell.swift in Sources */,
+				F11486C21C64061400E8A980 /* GroupViewController.swift in Sources */,
+				F11486C41C64094700E8A980 /* RestaurantViewController.swift in Sources */,
+				F11486C01C64044300E8A980 /* restaurantCell.swift in Sources */,
+				F1731B671C645293005C2C01 /* Checkbox.swift in Sources */,
+				F11486C81C640EF000E8A980 /* JoinGroupViewController.swift in Sources */,
+				F1731B651C64488E005C2C01 /* OrderCompleteCell.swift in Sources */,
+				F1731B631C644863005C2C01 /* OrderCompleteViewController.swift in Sources */,
+				F11486CA1C64119700E8A980 /* menuViewController.swift in Sources */,
+				F11486CC1C64122C00E8A980 /* menuCell.swift in Sources */,
 				F11486901C63F69100E8A980 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +518,7 @@
 				F11486B61C63F69100E8A980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F11486B71C63F69100E8A980 /* Build configuration list for PBXNativeTarget "SplitTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +527,7 @@
 				F11486B91C63F69100E8A980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F11486BA1C63F69100E8A980 /* Build configuration list for PBXNativeTarget "SplitUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +536,7 @@
 				F11486BC1C63F69100E8A980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
